@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3707B4C82915935E00B88D09 /* RhymdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3707B4C72915935E00B88D09 /* RhymdApp.swift */; };
+		3707B4CA2915935E00B88D09 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3707B4C92915935E00B88D09 /* MainView.swift */; };
+		3707B4CC2915935F00B88D09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3707B4CB2915935F00B88D09 /* Assets.xcassets */; };
+		3707B4CF2915935F00B88D09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3707B4CE2915935F00B88D09 /* Preview Assets.xcassets */; };
+		3707B4DC291593B300B88D09 /* RhymdDatabaseBuilderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3707B4DB291593B300B88D09 /* RhymdDatabaseBuilderApp.swift */; };
+		3707B4DE291593B300B88D09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3707B4DD291593B300B88D09 /* ContentView.swift */; };
+		3707B4E3291593B300B88D09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3707B4E2291593B300B88D09 /* Preview Assets.xcassets */; };
+		370C6989291596990049CDC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3707B4CB2915935F00B88D09 /* Assets.xcassets */; };
+		370C698B2915988E0049CDC2 /* RhymdDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C698A2915988E0049CDC2 /* RhymdDatabase.swift */; };
+		370C698D2915989A0049CDC2 /* TextCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C698C2915989A0049CDC2 /* TextCoder.swift */; };
+		370C698F291598A50049CDC2 /* RecognitionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C698E291598A50049CDC2 /* RecognitionElement.swift */; };
+		370C6991291598B20049CDC2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C6990291598B20049CDC2 /* Constants.swift */; };
+		370C6993291598BB0049CDC2 /* String Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C6992291598BB0049CDC2 /* String Extension.swift */; };
+		370C6994291598FD0049CDC2 /* RhymdDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C698A2915988E0049CDC2 /* RhymdDatabase.swift */; };
+		370C6995291598FF0049CDC2 /* TextCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C698C2915989A0049CDC2 /* TextCoder.swift */; };
+		370C6996291599010049CDC2 /* RecognitionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C698E291598A50049CDC2 /* RecognitionElement.swift */; };
+		370C6997291599040049CDC2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C6990291598B20049CDC2 /* Constants.swift */; };
+		370C6998291599060049CDC2 /* String Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C6992291598BB0049CDC2 /* String Extension.swift */; };
+		370C699A291599310049CDC2 /* GermanDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C6999291599310049CDC2 /* GermanDictionary.swift */; };
+		370C699C291599460049CDC2 /* german.dic in Resources */ = {isa = PBXBuildFile; fileRef = 370C699B291599460049CDC2 /* german.dic */; };
+		370C699E2915995E0049CDC2 /* DatabaseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C699D2915995E0049CDC2 /* DatabaseBuilder.swift */; };
+		37D8D2742915CE4900561478 /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D8D2732915CE4900561478 /* TextViews.swift */; };
+		37D8D2762915CE7700561478 /* DBLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D8D2752915CE7700561478 /* DBLoader.swift */; };
+		37D8D2782915CEBC00561478 /* large.json in Resources */ = {isa = PBXBuildFile; fileRef = 37D8D2772915CEBC00561478 /* large.json */; };
+		37D93E7D2921755D002EBFCA /* RhymeSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D93E7C2921755D002EBFCA /* RhymeSearchView.swift */; };
+		37D93E7F29217B45002EBFCA /* RhymeResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D93E7E29217B45002EBFCA /* RhymeResult.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3707B4C42915935E00B88D09 /* Rhymd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rhymd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3707B4C72915935E00B88D09 /* RhymdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhymdApp.swift; sourceTree = "<group>"; };
+		3707B4C92915935E00B88D09 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3707B4CB2915935F00B88D09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3707B4CE2915935F00B88D09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3707B4D9291593B200B88D09 /* Rhymd Database Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rhymd Database Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3707B4DB291593B300B88D09 /* RhymdDatabaseBuilderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhymdDatabaseBuilderApp.swift; sourceTree = "<group>"; };
+		3707B4DD291593B300B88D09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3707B4E2291593B300B88D09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3707B4E4291593B300B88D09 /* Rhymd_Database_Builder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rhymd_Database_Builder.entitlements; sourceTree = "<group>"; };
+		370C698A2915988E0049CDC2 /* RhymdDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhymdDatabase.swift; sourceTree = "<group>"; };
+		370C698C2915989A0049CDC2 /* TextCoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCoder.swift; sourceTree = "<group>"; };
+		370C698E291598A50049CDC2 /* RecognitionElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionElement.swift; sourceTree = "<group>"; };
+		370C6990291598B20049CDC2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		370C6992291598BB0049CDC2 /* String Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String Extension.swift"; sourceTree = "<group>"; };
+		370C6999291599310049CDC2 /* GermanDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GermanDictionary.swift; sourceTree = "<group>"; };
+		370C699B291599460049CDC2 /* german.dic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = german.dic; sourceTree = "<group>"; };
+		370C699D2915995E0049CDC2 /* DatabaseBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseBuilder.swift; sourceTree = "<group>"; };
+		37D8D2732915CE4900561478 /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
+		37D8D2752915CE7700561478 /* DBLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBLoader.swift; sourceTree = "<group>"; };
+		37D8D2772915CEBC00561478 /* large.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = large.json; path = ../../../../../Desktop/large.json; sourceTree = "<group>"; };
+		37D93E7C2921755D002EBFCA /* RhymeSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhymeSearchView.swift; sourceTree = "<group>"; };
+		37D93E7E29217B45002EBFCA /* RhymeResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhymeResult.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3707B4C12915935E00B88D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3707B4D6291593B200B88D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3707B4BB2915935E00B88D09 = {
+			isa = PBXGroup;
+			children = (
+				3707B4E8291593BB00B88D09 /* Shared */,
+				3707B4C62915935E00B88D09 /* Rhymd iPhone */,
+				3707B4DA291593B300B88D09 /* RhymdDatabaseBuilder */,
+				3707B4C52915935E00B88D09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3707B4C52915935E00B88D09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3707B4C42915935E00B88D09 /* Rhymd.app */,
+				3707B4D9291593B200B88D09 /* Rhymd Database Builder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3707B4C62915935E00B88D09 /* Rhymd iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				3707B4C72915935E00B88D09 /* RhymdApp.swift */,
+				3707B4C92915935E00B88D09 /* MainView.swift */,
+				37D8D2732915CE4900561478 /* TextViews.swift */,
+				37D8D2752915CE7700561478 /* DBLoader.swift */,
+				3707B4CD2915935F00B88D09 /* Preview Content */,
+				37D93E7C2921755D002EBFCA /* RhymeSearchView.swift */,
+				37D93E7E29217B45002EBFCA /* RhymeResult.swift */,
+			);
+			path = "Rhymd iPhone";
+			sourceTree = "<group>";
+		};
+		3707B4CD2915935F00B88D09 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3707B4CE2915935F00B88D09 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3707B4DA291593B300B88D09 /* RhymdDatabaseBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				3707B4DB291593B300B88D09 /* RhymdDatabaseBuilderApp.swift */,
+				3707B4DD291593B300B88D09 /* ContentView.swift */,
+				3707B4E4291593B300B88D09 /* Rhymd_Database_Builder.entitlements */,
+				3707B4E1291593B300B88D09 /* Preview Content */,
+				370C6999291599310049CDC2 /* GermanDictionary.swift */,
+				370C699B291599460049CDC2 /* german.dic */,
+				370C699D2915995E0049CDC2 /* DatabaseBuilder.swift */,
+			);
+			path = RhymdDatabaseBuilder;
+			sourceTree = "<group>";
+		};
+		3707B4E1291593B300B88D09 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3707B4E2291593B300B88D09 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3707B4E8291593BB00B88D09 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				37D8D2772915CEBC00561478 /* large.json */,
+				3707B4CB2915935F00B88D09 /* Assets.xcassets */,
+				370C698A2915988E0049CDC2 /* RhymdDatabase.swift */,
+				370C698C2915989A0049CDC2 /* TextCoder.swift */,
+				370C698E291598A50049CDC2 /* RecognitionElement.swift */,
+				370C6990291598B20049CDC2 /* Constants.swift */,
+				370C6992291598BB0049CDC2 /* String Extension.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3707B4C32915935E00B88D09 /* Rhymd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3707B4D22915935F00B88D09 /* Build configuration list for PBXNativeTarget "Rhymd" */;
+			buildPhases = (
+				3707B4C02915935E00B88D09 /* Sources */,
+				3707B4C12915935E00B88D09 /* Frameworks */,
+				3707B4C22915935E00B88D09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rhymd;
+			productName = Rhymd;
+			productReference = 3707B4C42915935E00B88D09 /* Rhymd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3707B4D8291593B200B88D09 /* Rhymd Database Builder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3707B4E5291593B300B88D09 /* Build configuration list for PBXNativeTarget "Rhymd Database Builder" */;
+			buildPhases = (
+				3707B4D5291593B200B88D09 /* Sources */,
+				3707B4D6291593B200B88D09 /* Frameworks */,
+				3707B4D7291593B200B88D09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rhymd Database Builder";
+			productName = "Rhymd Database Builder";
+			productReference = 3707B4D9291593B200B88D09 /* Rhymd Database Builder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3707B4BC2915935E00B88D09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3707B4C32915935E00B88D09 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					3707B4D8291593B200B88D09 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 3707B4BF2915935E00B88D09 /* Build configuration list for PBXProject "Rhymd" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3707B4BB2915935E00B88D09;
+			productRefGroup = 3707B4C52915935E00B88D09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3707B4C32915935E00B88D09 /* Rhymd */,
+				3707B4D8291593B200B88D09 /* Rhymd Database Builder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3707B4C22915935E00B88D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D8D2782915CEBC00561478 /* large.json in Resources */,
+				3707B4CF2915935F00B88D09 /* Preview Assets.xcassets in Resources */,
+				3707B4CC2915935F00B88D09 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3707B4D7291593B200B88D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370C699C291599460049CDC2 /* german.dic in Resources */,
+				370C6989291596990049CDC2 /* Assets.xcassets in Resources */,
+				3707B4E3291593B300B88D09 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3707B4C02915935E00B88D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370C6995291598FF0049CDC2 /* TextCoder.swift in Sources */,
+				370C6994291598FD0049CDC2 /* RhymdDatabase.swift in Sources */,
+				3707B4CA2915935E00B88D09 /* MainView.swift in Sources */,
+				370C6996291599010049CDC2 /* RecognitionElement.swift in Sources */,
+				37D8D2762915CE7700561478 /* DBLoader.swift in Sources */,
+				370C6998291599060049CDC2 /* String Extension.swift in Sources */,
+				37D93E7F29217B45002EBFCA /* RhymeResult.swift in Sources */,
+				37D93E7D2921755D002EBFCA /* RhymeSearchView.swift in Sources */,
+				37D8D2742915CE4900561478 /* TextViews.swift in Sources */,
+				3707B4C82915935E00B88D09 /* RhymdApp.swift in Sources */,
+				370C6997291599040049CDC2 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3707B4D5291593B200B88D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370C698D2915989A0049CDC2 /* TextCoder.swift in Sources */,
+				370C699A291599310049CDC2 /* GermanDictionary.swift in Sources */,
+				370C698B2915988E0049CDC2 /* RhymdDatabase.swift in Sources */,
+				3707B4DE291593B300B88D09 /* ContentView.swift in Sources */,
+				370C698F291598A50049CDC2 /* RecognitionElement.swift in Sources */,
+				370C699E2915995E0049CDC2 /* DatabaseBuilder.swift in Sources */,
+				370C6993291598BB0049CDC2 /* String Extension.swift in Sources */,
+				3707B4DC291593B300B88D09 /* RhymdDatabaseBuilderApp.swift in Sources */,
+				370C6991291598B20049CDC2 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3707B4D02915935F00B88D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3707B4D12915935F00B88D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3707B4D32915935F00B88D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rhymd iPhone/Preview Content\"";
+				DEVELOPMENT_TEAM = Q9KFEVE553;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Rhymd;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lancz.Rhymd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3707B4D42915935F00B88D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rhymd iPhone/Preview Content\"";
+				DEVELOPMENT_TEAM = Q9KFEVE553;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Rhymd;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lancz.Rhymd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3707B4E6291593B300B88D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RhymdDatabaseBuilder/Rhymd_Database_Builder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RhymdDatabaseBuilder/Preview Content\"";
+				DEVELOPMENT_TEAM = Q9KFEVE553;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Rhymd DB";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lancz.Rhymd-Database-Builder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3707B4E7291593B300B88D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RhymdDatabaseBuilder/Rhymd_Database_Builder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RhymdDatabaseBuilder/Preview Content\"";
+				DEVELOPMENT_TEAM = Q9KFEVE553;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Rhymd DB";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lancz.Rhymd-Database-Builder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3707B4BF2915935E00B88D09 /* Build configuration list for PBXProject "Rhymd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3707B4D02915935F00B88D09 /* Debug */,
+				3707B4D12915935F00B88D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3707B4D22915935F00B88D09 /* Build configuration list for PBXNativeTarget "Rhymd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3707B4D32915935F00B88D09 /* Debug */,
+				3707B4D42915935F00B88D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3707B4E5291593B300B88D09 /* Build configuration list for PBXNativeTarget "Rhymd Database Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3707B4E6291593B300B88D09 /* Debug */,
+				3707B4E7291593B300B88D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3707B4BC2915935E00B88D09 /* Project object */;
+}
